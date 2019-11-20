@@ -16,7 +16,7 @@ export class DataService {
 
   GetData()
   {
-   return this.http.get("http://200.0.1.206:4001/employees");
+   return this.http.get("http://localhost:4000/employees");
   }
 
   AddData(emp:any)
